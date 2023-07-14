@@ -4,7 +4,7 @@ using namespace std;
 
 void clear_i_bits_in_range(int &n,int i,int j){
 
-  int a = (-1<<(j+1));
+  int a = (-1<<(j+1));  // -1 << by j also works i dont know why prateek sir put j + 1
   int b = (1<<i) - 1;
   int mask = a | b;
 
